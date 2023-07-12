@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #333333;
+  color: #FFFFFF;
+  margin-top: 75px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #66FFFF;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #FF6633;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 20px;
+  scale: 250%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #FF6633;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* Projects section styles */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  margin-bottom: 10px;
+  margin-right: 350px;
+}
+
+#project-description {
+  width: 50%;
+  margin: 0;
+  padding: 10px;
+  background-color: #333;
+  color: #FFFFFF;
+}
+
+/* Responsive Styles */
+
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+}
+
+/* For phones and smaller screens */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links img {
+  height: 20px;
+  margin-right: 10px;
+}
