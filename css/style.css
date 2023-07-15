@@ -17,9 +17,9 @@ li {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: #333333;
   color: #FFFFFF;
   margin-top: 75px;
+  background: linear-gradient(to right, black 15%, #333333 25% 75%, black 85%);
 }
 
 .container {
@@ -120,10 +120,16 @@ nav ul li a {
   margin-right: 350px;
 }
 
+.project-description-container {
+  margin-left: 10px;
+}
+
 #project-description {
   width: 50%;
   margin: 0;
   padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
   background-color: #333;
   color: #FFFFFF;
 }
@@ -154,7 +160,7 @@ nav ul li a {
 
 /* Footer styles */
 footer {
-  background-color: #333;
+  background: linear-gradient(to right, black 15%, #333333 25% 75%, black 85%);
   color: #fff;
   padding: 20px;
   text-align: center;
